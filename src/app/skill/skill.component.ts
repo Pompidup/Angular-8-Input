@@ -8,10 +8,9 @@ import { Skill } from '../common/skill.model';
 })
 export class SkillComponent implements OnInit {
 
-  public skillArray = new Skill
-  ["Javascript", "logo","site"],
-  [];
-  @Input() skillInput : Skill;
+  @Input() public skill : Skill
+
+
 
   constructor() {
 
