@@ -1,0 +1,8 @@
+<p>
+  developer works!
+</p>
+<div>
+  {{developer.lastName}}, {{developer.firstName}}, {{developer.age}}, {{developer.sexe}}, {{developer.bio}}
+</div>
+<app-skill *ngFor="let current of developer.skills" [skill]="current">
+</app-skill>
